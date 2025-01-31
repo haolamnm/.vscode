@@ -1,0 +1,93 @@
+{
+	// Window settings
+	"breadcrumbs.enabled": false,
+	"window.zoomLevel": 1,
+	"window.restoreWindows": "none", // Disable opening previous windows
+	"window.openFilesInNewWindow": "on", // Open unrelated files in new window
+	// Terminal settings
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.integrated.enableMultiLinePasteWarning": "always",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyleInactive": "line",
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorWidth": 3,
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "normal",
+	// Workbench settings
+	"workbench.list.smoothScrolling": true,
+	"workbench.editor.showTabs": "multiple",
+	"workbench.editor.tabSizing": "fit",
+	"workbench.statusBar.visible": true,
+	"workbench.tips.enabled": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "GitHub Dark Default",
+	// Editor settings
+	"[html]": {
+		"editor.tabSize": 2 // Set tab size to 2 for HTML files
+	},
+	"editor.fontSize": 15,
+	"editor.wordWrap": "on",
+	"editor.lineNumbers": "on",
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.hover.enabled": true,
+	"editor.cursorBlinking": "phase",
+	"editor.fontFamily": "JetBrains Mono NL",
+	"editor.minimap.enabled": false,
+	"editor.fontLigatures": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.smoothScrolling": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorStyle": "line",
+	"editor.cursorWidth": 3,
+	"editor.tabSize": 4,
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"editor.suggestSelection": "first",
+	"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+	"editor.scrollBeyondLastLine": false, // Disable scrolling beyond last line
+	// Files settings
+	"files.autoSave": "afterDelay",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	// Todo Highlight settings
+	"todohighlight.keywords": [
+		{
+			"text": "TODO:",
+			"color": "#AA8F55",
+			"backgroundColor": "#332400",
+			"overviewRulerColor": "#4D3E00",
+			"borderRadius": "3px",
+			"isWholeLine": false
+		},
+		{
+			"text": "INFO:",
+			"color": "#557799",
+			"backgroundColor": "#001329",
+			"overviewRulerColor": "#003366",
+			"borderRadius": "3px",
+			"isWholeLine": false
+		},
+		{
+			"text": "FIXME:",
+			"color": "#994D4D",
+			"backgroundColor": "#220000",
+			"overviewRulerColor": "#4D1919",
+			"borderRadius": "3px",
+			"isWholeLine": false
+		}
+	],
+	// Material Icon Theme settings
+	"material-icon-theme.hidesExplorerArrows": true,
+	// GitHub Copilot settings
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+	},
+	// Git settings
+	"git.confirmSync": false,
+	// Python settings
+	"python.analysis.typeCheckingMode": "basic",
+}
