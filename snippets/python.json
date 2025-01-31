@@ -1,0 +1,47 @@
+{
+	"Init main guard": {
+		"prefix": "main",
+		"body": [
+			"if __name__ == '__main__':",
+			"\t$0"
+		],
+		"description": "Init main guard"
+	},
+	"Init class template": {
+		"prefix": "cls",
+		"body": [
+			"class ${1:Name}($2):",
+			"\t\"\"\"${3:docstring}\"\"\"",
+			"\tdef __init__(self, ${4:args}):",
+			"\t\t${5:pass}",
+			"$0"
+		],
+		"description": "Init class template"
+	},
+	"Init function template": {
+		"prefix": "def",
+		"body": [
+			"def ${1:Name}(${2:args}) -> ${3:None}:",
+			"\t\"\"\"${4:docstring}\"\"\"",
+			"\t${5:pass}",
+			"$0"
+		],
+		"description": "Init function template"
+	},
+	"Init decorator template": {
+		"prefix": "deco",
+		"body": [
+			"def ${1:decorator}(func):",
+			"\t\"\"\"${2:docstring}\"\"\"",
+			"\t@functools.wraps(func)",
+			"\tdef wrapper(*args, **kwargs):",
+			"\t\t${3:# pre-call logic}",
+			"\t\tresult = func(*args, **kwargs)",
+			"\t\t${4:# post-call logic}",
+			"\t\treturn result",
+			"\treturn wrapper",
+			"$0"
+		],
+		"description": "Init decorator template"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"Init code block": {
+		"prefix": "init code",
+		"body": [
+			"```${1:language}",
+			"$0",
+			"```"
+		],
+		"description": "Init code block"
+	},
+	"Init table with 2 columns": {
+		"prefix": "init table2",
+		"body": [
+			"| ${1:Header1} | ${2:Header2} |",
+			"|--------------|--------------|",
+			"| ${3:Content} | ${4:Content} |",
+			"$0"
+		],
+		"description": "Init table with 2 columns"
+	},
+	"Init table with 3 columns": {
+		"prefix": "init table3",
+		"body": [
+			"| ${1:Header1} | ${2:Header2} | ${3:Header3} |",
+			"|--------------|--------------|--------------|",
+			"| ${4:Content} | ${5:Content} | ${6:Content} |",
+			"$0"
+		],
+		"description": "Init table with 3 columns"
+	}
+}

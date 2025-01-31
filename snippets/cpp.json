@@ -1,0 +1,34 @@
+{
+	"Init competitive programming template": {
+		"prefix": "init cpp",
+		"body": [
+			"// haolamnm",
+			"",
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main() {",
+			"    ios::sync_with_stdio(false);",
+			"    cin.tie(nullptr);",
+			"    ",
+			"    $0",
+			"    ",
+			"    return 0;",
+			"}"
+		],
+		"description": "Init C++ template"
+	},
+	"Init header file": {
+		"prefix": "init header",
+		"body": [
+			"#ifndef ${1:${TM_FILENAME_BASE/(.*)/${1:/upcase}_H/}}",
+			"#define ${1:${TM_FILENAME_BASE/(.*)/${1:/upcase}_H/}}",
+			"",
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"#endif // ${1:${TM_FILENAME_BASE/(.*)/${1:/upcase}_H/}}"
+		],
+		"description": "Init header file"
+	}
+}
