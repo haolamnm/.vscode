@@ -1,0 +1,15 @@
+[
+	{
+		"key": "ctrl+f5",
+		"command": "code-runner.run"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.files.openFolder",
+		"when": "openFolderWorkspaceSupport"
+	},
+	{
+		"key": "ctrl+o",
+		"command": "workbench.action.files.openFile"
+	}
+]
